@@ -52,15 +52,15 @@ class NeovimAT095 < Formula
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
-  bottle do
-    sha256 arm64_sonoma:   "dceae593d688ebcab98d65cb2a8c885493ce7ceba0d87dff5e35cc9a00840382"
-    sha256 arm64_ventura:  "de0f296454dd02e139ad69f6a193e597691528988389214407c4ea08677e26fb"
-    sha256 arm64_monterey: "b7b6fc8764383e84657912cc17197f40fe112382dd98299713abc273131acaef"
-    sha256 sonoma:         "c0d17b581f7584ea6de7e131cfbb89374d9753464fc5030d262aadf186aefb11"
-    sha256 ventura:        "56162a099233d89e325b024ac3052cd7a0c7bc667071fb83f5ba4ebbeffcf8a5"
-    sha256 monterey:       "cb2591d244f1ec97c38fc5f7f0d0a358d0d03a1a94432c28c1cc7c577dddb369"
-    sha256 x86_64_linux:   "ab667b4b8ce2b55f8c654d85520831f05590b1df4c2ddd277149d24681643a20"
-  end
+  # bottle do
+  #   sha256 arm64_sonoma:   "dceae593d688ebcab98d65cb2a8c885493ce7ceba0d87dff5e35cc9a00840382"
+  #   sha256 arm64_ventura:  "de0f296454dd02e139ad69f6a193e597691528988389214407c4ea08677e26fb"
+  #   sha256 arm64_monterey: "b7b6fc8764383e84657912cc17197f40fe112382dd98299713abc273131acaef"
+  #   sha256 sonoma:         "c0d17b581f7584ea6de7e131cfbb89374d9753464fc5030d262aadf186aefb11"
+  #   sha256 ventura:        "56162a099233d89e325b024ac3052cd7a0c7bc667071fb83f5ba4ebbeffcf8a5"
+  #   sha256 monterey:       "cb2591d244f1ec97c38fc5f7f0d0a358d0d03a1a94432c28c1cc7c577dddb369"
+  #   sha256 x86_64_linux:   "ab667b4b8ce2b55f8c654d85520831f05590b1df4c2ddd277149d24681643a20"
+  # end
 
   # TODO: Replace with single-line `head` when `lpeg`
   #       is no longer a head-only dependency in 0.10.0.
